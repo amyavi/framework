@@ -46,6 +46,7 @@ while true; do
 		-Xms3400M -Xmx3400M \
 		-XX:MaxDirectMemorySize=512M \
 		\
+		-XX:+IgnoreUnrecognizedVMOptions \
 		-XX:+UseZGC \
 		-XX:+UseCompactObjectHeaders \
 		-XX:+AlwaysPreTouch \
